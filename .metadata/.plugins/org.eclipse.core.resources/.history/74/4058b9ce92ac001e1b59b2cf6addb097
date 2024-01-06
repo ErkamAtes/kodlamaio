@@ -1,0 +1,9 @@
+package business;
+
+public class CourseManager implements ProductManager{
+	public void add() {
+		
+		System.out.println("Course eklendi");
+	}
+	
+}

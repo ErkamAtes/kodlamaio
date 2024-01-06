@@ -1,0 +1,42 @@
+package business;
+
+
+import java.util.List;
+
+import core.logging.Logger;
+import dataAccess.ProductDao;
+import entities.Courses;
+import entities.Product;
+
+public class CourseManager implements ProductManager{
+	private ProductDao productDao;
+	private Logger[] loggers;
+	private List<Product> productes;
+	public CourseManager(ProductDao productDao, Logger[] loggers) {
+		this.productDao = productDao;
+		this.loggers = loggers;
+	}
+	
+	public void add(Courses course, List<Courses> courses) throws Exception {
+		
+		if(course.getUnitPrice()<0) {
+			throw new Exception("Ürün fiyatı 0 dan küçük olamaz");
+		}
+		for (Product course2 : courses) {
+			if(course.getName().equals(course2.getName())) {
+				throw new Exception("Ürün isimleri tekrar edemez");
+			}
+			else if(course.getCategory().equals(course2.getCategory())) {
+				throw new Exception("Category tekrar edemez");
+			}
+		}
+		
+		
+		for (Logger logger : loggers) { 
+			logger.log(course.getName());
+		
+	}
+
+	}
+	
+}

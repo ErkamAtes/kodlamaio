@@ -1,0 +1,9 @@
+package business;
+
+import java.util.List;
+
+import entities.Product;
+
+public interface ProductManager {
+	void add(Product product, List<Product> productes) throws Exception;
+}

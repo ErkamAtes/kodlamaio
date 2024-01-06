@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="dataAccess.ProductDao"/>
+    <fullyQualifiedTypeName name="entities.Product"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="core.logging.Logger"/>
+    <fullyQualifiedTypeName name="core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="dataAccess.HibernateProduct"/>
+    <fullyQualifiedTypeName name="business.ProductManager"/>
+    <fullyQualifiedTypeName name="business.CourseManager"/>
+    <fullyQualifiedTypeName name="entities.Courses"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

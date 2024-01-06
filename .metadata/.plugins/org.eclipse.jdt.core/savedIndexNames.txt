@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/Users/erkamates/Desktop/Kodlama.ioProject/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3069758327.index
+730429357.index
+2807242029.index

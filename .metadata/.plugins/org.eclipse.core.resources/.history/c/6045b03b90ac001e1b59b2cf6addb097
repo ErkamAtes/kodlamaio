@@ -1,0 +1,5 @@
+package core.logging.copy;
+
+public interface Logger {
+
+}

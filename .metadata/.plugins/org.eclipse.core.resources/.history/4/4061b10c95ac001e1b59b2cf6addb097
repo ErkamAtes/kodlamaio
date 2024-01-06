@@ -1,0 +1,15 @@
+package business;
+
+
+import entities.Product;
+
+public class CourseManager implements ProductManager{
+	
+	public void add(Product product) {
+		
+		System.out.println(product.getName() + " course eklendi");
+	}
+
+	
+	
+}
